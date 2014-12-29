@@ -10,14 +10,8 @@ Router.plugin('dataNotFound', {notFoundTemplate: 'notFound'});
 
 Router.plugin('loading', {loadingTemplate: 'loading'});
 
-Router.route('/', {
+Router.route('/dashbaord', {
   name: 'dashboard',
-  path: '/',
+  path: '/dashboard',
   template: 'dashboard',
 });
-
-// Router.route('/dashbaord', {
-//   name: 'dashboard',
-//   path: '/dashboard',
-//   template: 'dashboard',
-// });
